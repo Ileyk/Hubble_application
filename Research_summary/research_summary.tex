@@ -1,0 +1,192 @@
+%%%%%%%%%%%%%%%%%  Debut du fichier Latex  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,12pt,onecolumn]{article}
+
+%%% Pour un texte en francais
+
+%%\usepackage[applemac]{inputenc}
+%\usepackage[francais]{babel}
+	         % encodage des lettres accentuees
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}          % encodage des lettres accentuees
+%\usepackage{graphicx}
+%%\usepackage{graphicx} \def\BIB{}
+\usepackage[paper=letterpaper,textwidth=140mm,left=2.1cm,right=2.1cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{multicol}
+\usepackage{graphicx,wrapfig,lipsum} 
+%\def\BIB{}
+\usepackage[font=footnotesize]{caption}
+\usepackage{subcaption}
+\usepackage[pdftex]{hyperref}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=blue     % can put red here to visualize the links
+}
+\usepackage{xspace}
+
+\DeclareUnicodeCharacter{00A0}{ }
+
+%%% Quelques raccourcis pour la mise en page
+\newcommand{\remarque}[1]{{\small \it #1}}
+\newcommand{\rubrique}{\bigskip \noindent $\bullet$ }
+\newcommand{\sgx}{SgXB\xspace}
+\newcommand{\ulx}{ULX\xspace}
+\newcommand{\sfxt}{SFXT}
+\newcommand{\sg}{Sg\xspace}
+\newcommand{\co}{CO\xspace}
+\newcommand*{\hmxb}{HMXB\@\xspace}
+\newcommand*{\lmxb}{LMXB\@\xspace}
+\newcommand*{\rlof}{RLOF\@\xspace}
+\newcommand*{\ns}{NS\@\xspace}
+\newcommand*{\bh}{BH\@\xspace}
+\newcommand*{\eg}{e.g.\@\xspace}
+\newcommand*{\ie}{i.e.\@\xspace}
+\newcommand*{\aka}{a.k.a. \@\xspace}
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
+\newcommand*{\msun}{$M_{\odot}$\@\xspace}
+\newcommand*{\mdotstar}{$\dot{M}_{\text{\mystar}}$\@\xspace}
+\newcommand*{\mdotacc}{$\dot{M}_{\text{acc}}$\@\xspace}
+\newcommand*{\ledd}{$L_{\text{Edd}}$\@\xspace}
+
+\newcommand{\ignore}[1]{}
+
+\renewcommand*\rmdefault{iwona}
+
+\pagenumbering{gobble}
+
+%\bibliographystyle{abbrvnat}
+%\setcitestyle{authoryear,open={((},close={))}}
+
+%\renewcommand{\thefootnote}{\roman{footnote}}
+
+% -------------------------------------------------
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\vspace*{-2.5cm}
+%\normalfont \tiny 
+%%\textsc{Paris Diderot} \\ [25pt] % Your university, school and/or department name(s)
+%\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\Large Research summary \\ % The assignment title
+%\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+\author{\tiny} % Your name
+\date{\tiny }%\normalsize\today} % Today's date or a custom date
+% -------------------------------------------------
+
+%\makeatletter
+%\def\@xfootnote[#1]{%
+%  \protected@xdef\@thefnmark{#1}%
+%  \@footnotemark\@footnotetext}
+%\makeatother
+
+\begin{document}
+
+%\bibpunct{[}{]}{;}{n}{,}{,}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%  PREMIERE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% DANS CETTE PAGE, ON REMPLACE LES INDICATIONS ENTRE CROCHETS [...]
+%%% PAR LES INFORMATIONS DEMANDEES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\maketitle
+\thispagestyle{empty}
+
+\vspace*{-1cm}
+
+
+
+%X-ray emitting binary systems host a compact object - a neutron star (NS) or a black hole (BH) - orbiting a stellar companion whose gas is accreted by the former. Since the discovery of the first extrasolar X-ray source in the early sixties \citep{Giacconi1962}, continuous observations of those systems have revealed a broad range of spectral and photometric behaviors with a special emphasis on their incredible time variability : flares, hysteresis loops in hardness-luminosity diagrams, off-states, quasi-periodic oscillations... all this on time scales ranging from milliseconds to years, fully within the scope of observational missions lifetimes (XMM-Newton, Chandra and Integral today, SVOM, LOFT and Athena tomorrow). The complex Physics at stake behind the scenes has long been beyond our reach due to limited observational data and numerical capacities. Those intrinsically intertwined systems require multi-scales approaches to fully appreciate the turbulent flow, from the Dantean stellar surface up to the magnetic vicinity of a NS, if not the relativistic surroundings of a BH. Game changing high performance computing technologies have ushered in a gold rush to design coupled semi-analytical models supported by numerical simulations to account for time variability in X-ray binaries. Once pie in the sky, a consistent overview of the accretion process is now within our grasp.
+%
+%HMXB
+%SgXB
+
+My work addresses the question of mass and angular momentum transfer in High Mass X-ray Binaries (\hmxb), systems where a compact object, either a neutron star (\ns) or a black hole (\bh) orbits a high mass donor star and captures part of its stellar wind. More specifically, I am interested in the behavior of the stellar material being accreted by the compact object on time scales within the scope of observing campaigns. The aim of my investigations has been twofold : to understand the accretion process onto wind-fed compact objects and to constrain the properties of the line-driven winds from the O/B supergiant donor stars.
+
+I use state-of-the-art magneto-hydrodynamics codes to follow the flow from the stellar surface down to the vicinity of the accretor and identify features susceptible to explain observations. I have been project leader for 4 successful computing time proposals on supercomputers. I am co-PI of 2 XMM-Newton proposals to observe a classic and an obscured Supergiant X-ray binary (\sgx) in an attempt to study respectively the accretion tail in the wake of the accretor and the intrinsic absorption due to the stellar wind. 
+
+\subsection*{Time variability in Supergiant X-ray binaries}
+
+\footnotesize
+\textbf{[1] \textit{Axisymmetric hydrodynamical Bondi-Hoyle accretion onto a compact object}, El Mellah \& Casse, MNRAS 2015}\\
+\textbf{[2] \textit{Accretion from a clumpy massive-star wind in SgXB}, El Mellah, Sundqvist \& Keppens, MNRAS 2017}\\
+\textbf{[3] \textit{The clumpy absorber in the HMXB Vela X-1}, Grinberg, Hell, El Mellah et al., A\&A 2017}\\
+
+\normalsize
+
+%Continuous monitoring of \sgx have revealed a broad range of spectral and photometric behaviors with a special emphasis on their incredible time variability (off-states, flares, quiescence...) on a broad range of time scales, from hundreds of seconds to years. In the 2000's, a new class of \hmxb characterized by an enhanced variability was unearthed, Supergiant Fast X-ray transients. Their connections to the classic \sgx are still a matter of debate.\\
+%Probe the clumpiness of the wind, using the orbiting X-ray source as a probe => connection to massive stars community. Clumpiness important since alters mass loss rates observed and mass loss rates important since (i) significantly alter stellar evolution and the mass of the stellar remnant left in the end and (ii) to know angular momentum evolution (spins and shrinking of the orbit). 
+
+Continuous monitoring of \sgx have revealed an incredible time variability (off-states, flares...) which could shed light on the micro-structure of the stellar wind. Using the orbiting X-ray source as a probe, we could evaluate its "clumpiness", provided we also appreciate the impact of these inhomogeneities on the time variability. Since clumpiness systematically alters the values of the mass loss rates we derive from observations, improved constrains would have important consequences on the predicted properties of the compact remnants massive stars eventually collapsed into, such as their spin or the mass distribution.\\
+
+During my 3-years PhD in Paris under the supervision of Fabien Casse \& Andrea Goldwurm, I developed a hydrodynamical representation of the ideal wind accretion configuration, where a massive body captures material from a planar homogeneous supersonic wind. In [1], I characterized the structure of the bow shock and the accretion tail which form as the flow is beamed towards the accretor, the actual mass accretion rate onto the compact object and the dependence on the Mach number of the incoming flow. 
+
+This setup served as a reference to study the effect of the clumps formed by internal shocks in the line-driven winds of hot stars. For long, it was proposed that the observed flares in a \sgx like Vela X-1 could be provoked by the serendipitous capture of a clump. However, we showed in [2] that realistic clumps computed from radiative-hydrodynamics simulations do not undergo direct accretion. To do so, we injected clumps into a 3D simulation space centered on the accretor and followed them over 3 orders of magnitude, from the Roche lobe down to the outer rim of the \ns magnetosphere (see Figure\,\,\ref{fig:config_SgXB_and_mesh}). As clumps dash the shock characterized in [1], material redistributes within the shocked region which acts as a buffer zone. Since accretion requires the evacuation of the instantaneous angular momentum carried by the clumps, it can only proceed once material with opposite angular momentum mixes, which produces a flare in mass accretion rate which can no longer be directly traced back to an individual clump. Consequently, if the clumps do contribute to the variability, their impact is lower than previously estimated in models of purely ballistic "bullet clumps". Additional instabilities at the outer rim of the \ns magnetosphere, such as the propeller effect are required to reproduce the observed variability in \sgx.
+
+In a paper led by Victoria Grinberg [3], I evaluated the impact of unaccreted clumps passing by the line-of-sight between the observer and the X-ray source on the time variability of the absorbed column density. Thanks to Chandra observations, we could report coherent hardening events of the emission in Vela X-1, whose duration and amplitude can be explained either by significantly larger clumps or by a slower wind than previously estimated. The latter scenario brought up the possibility of a significant beaming of the stellar wind towards the compact object, an enhanced mass transfer rate and the formation of wind-captured discs.
+
+\begin{figure}[!t]
+\begin{subfigure}{0.45\columnwidth}
+  \centering
+%  \hspace*{-1cm}
+  \includegraphics[height=7cm]{Figures/config_SgXB_clumps.png}	
+\end{subfigure}%
+\begin{subfigure}{0.45\columnwidth}
+  \centering
+  \hspace*{0.25cm}
+  \includegraphics[height=7cm]{Figures/mesh.jpeg}	
+\end{subfigure}
+\caption{(\textit{left}) Principle of the clumpy wind accretion simulations : we inject into the simulation space (upper right insert) a wind whose micro-structure has been computed based on radiative hydrodynamics simulations by Sundqvist, Owocki \& Puls (2018). (\textit{right}) Two-slices representation of the upstream hemisphere of the simulation space, with the wind flowing in from the upper left. The logarithmic density map shows the typical size of the clumps which can be resolved thanks to the coupling between a radially stretched grid and an adaptive mesh refinement algorithm. The accretor lies in the bottom right corner.}
+\label{fig:config_SgXB_and_mesh}
+\end{figure}
+
+\subsection*{Enhanced accretion and wind-captured discs in High Mass X-ray binaries}
+
+\footnotesize
+\textbf{[4] \textit{A numerical investigation of wind accretion in persistent SgXB}, El Mellah \& Casse, MNRAS 2016}\\
+\textbf{[5] \textit{Formation of wind-captured discs in SgXB : consequences for Vela X-1 and Cygnus X-1}}\\
+\hspace*{16pt}\textbf{El Mellah, Sanders, Sundqvist \& Keppens, submitted}\\
+\textbf{[6] \textit{Wind Roche lobe overflow in HMXB : a mass transfer mechanism for Ultraluminous X-ray sources}}\\
+\hspace*{16pt}\textbf{El Mellah, Sundqvist \& Keppens, submitted}\\
+
+\normalsize
+
+A better understanding of transfer of angular momentum in \hmxb is essential to predict the spins of the compact remnants and the number of compact binaries with periods short enough to merge within a Hubble time and emit a burst of gravitational waves that the current and upcoming instruments could detect.
+
+\begin{wrapfigure}{o}{0.4\textwidth}
+  \centering
+  \includegraphics[width=3in]{Figures/disc.png}
+  \caption{3D contours of the mass density, where the arrows stand for the velocity field in the orbital plane. The central white sphere stands for the inner boundary of the simulation space which represents approximately the outer edge of the \ns magnetosphere, a few 100 times smaller than the outer boundary of the simulation space.}
+  \vspace{-10pt}
+\label{fig:disc}
+\end{wrapfigure}
+
+In my last year of PhD, I designed a model to study how the coupling between stellar, wind, orbital and accretion parameters in \hmxb could provide reliable estimates of the amount of angular momentum captured by the compact object [4]. I identified the configurations suitable to accrete enough angular momentum to possibly form a disc-like structure within the Roche lobe of the accretor. At that time, it seemed to require stringent conditions on the speed of the wind, which had to be very low. However, observations and stellar atmosphere computations later on suggested that line-driven acceleration might be more progressive than initially thought, leading to low speeds at the orbital separation. It drove me into performing full 3D hydrodynamic simulations with some representative sets of parameters I had found in [4]. In [5], I showed that, under a certain ratio of wind speed by the orbital speed and provided radiative cooling was accounted for, a centrifugally-maintained structure could form between the shock and the \ns magnetosphere (see Figure\,\ref{fig:disc}), below which the disc is truncated. 
+
+This mass transfer regime known as wind - Roche lobe overflow is also associated to a significant enhancement of the rate at which mass is transferred. Due to the compression of the wind into the orbital plane, the mass accretion rate can surge and reach levels matching the requirements for Ultraluminous X-ray sources [6]. The latter are currently serious candidates for intermediate mass \bh candidates, although many have been shown to host \ns accreting undergoing super-Eddington accretion.
+
+\subsection*{Code development \& Kepler data analysis}
+
+\footnotesize
+\textbf{[7] \textit{MPI-AMRVAC 2.0 for Solar and Astrophysical Applications}, Xia, Teunissen, El Mellah et al., ApJS 2018}\\
+\textbf{[8] \textit{A study of the shortest-period planets found with Kepler}, Sanchis-Ojeda et al., ApJ 2014}\\
+\textbf{[9] \textit{Triple-star candidates among the Kepler binaries}, Rappaport et al., ApJ 2013}\\
+\textbf{[10] \textit{Possible disintegrating short-period super-Mercury orbiting KIC 12557548}}\\
+\hspace*{20pt}\textbf{Rappaport, Levine, Chiang, El Mellah et al., ApJ 2012}\\
+
+\normalsize
+
+Earlier on this year, Chun Xia led a paper I co-authored [7]. It describes the new numerical techniques we developed for \texttt{MPI-AMRVAC}, a magneto-hydrodynamics finite volume code I have been using and developing extensively over the last years. In this paper, I focused on one of the 3 main features presented, the radially stretched spherical grid I used to monitor the accretion flow over several orders of magnitude at an affordable computational cost (see Figure\,\ref{fig:config_SgXB_and_mesh}, right panel). I validated the numerical implementation on the classic 1D Bondi spherical accretion.
+
+Finally, I volunteered to join the Kavli Institute for Astrophysics and Space Research (MIT) from September 2011 to July 2012 and take part in the Kepler satellite data analysis effort under the supervision of Saul Rappaport. I participated in the discovery and characterization of the first disintegrating exoplanet [10]. My involvement also contributed to the identification of 30 new triple star systems [9] and to a detailed analysis of the shortest-period exoplanets [8].
+
+\end{document}
+%%%%%%%%%%%%%%%%%  Fin du fichier Latex  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
