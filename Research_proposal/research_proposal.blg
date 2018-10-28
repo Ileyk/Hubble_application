@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: research_proposal.aux
+The style file: ieeetr.bst
+Database file #1: /Users/Ileyk/Documents/Bibtex/Hubble_fellowship_no_url.bib
+Repeated entry---line 270 of file /Users/Ileyk/Documents/Bibtex/Hubble_fellowship_no_url.bib
+ : @article{Grinberg2017
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty title in DeMink2012
+Warning--empty title in TheLIGOScientificCollaboration2017
+Warning--empty title in Belczynski2017
+Warning--empty title in Ghosh1978
+Warning--empty title in Shakura2012
+Warning--empty title in Bozzo2008
+Warning--empty title in ElMellah2018
+Warning--empty title in Grinberg2017
+Warning--empty title in Martinez-Nunez2014
+Warning--empty title in ElMellah
+Warning--empty title in ElMellah2015
+Warning--empty title in Jiang2014a
+Warning--empty journal in Jiang2014a
+Warning--empty title in Bozzo2012
+Warning--empty title in Fuerst2018
+Warning--empty title in Furst2014
+Warning--empty title in Tchekhovskoy2012
+Warning--empty title in Murguia-Berthier2017
+Warning--empty title in Christodoulou2017
+You've used 18 entries,
+            1876 wiz_defined-function locations,
+            578 strings with 26008 characters,
+and the built_in function-call counts, 20134 in all, are:
+= -- 424
+> -- 3813
+< -- 0
++ -- 1277
+- -- 1259
+* -- 2760
+:= -- 4264
+add.period$ -- 18
+call.type$ -- 18
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 235
+empty$ -- 382
+format.name$ -- 1259
+if$ -- 3472
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 18
+newline$ -- 57
+num.names$ -- 18
+pop$ -- 55
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 173
+stack$ -- 0
+substring$ -- 235
+swap$ -- 105
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 19
+while$ -- 42
+width$ -- 20
+write$ -- 155
+(There was 1 error message)
