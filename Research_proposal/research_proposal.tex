@@ -10,7 +10,7 @@
 \usepackage[utf8]{inputenc}          % encodage des lettres accentuees
 %\usepackage{graphicx}
 %%\usepackage{graphicx} \def\BIB{}
-\usepackage[paper=a4paper,textwidth=140mm,left=2.1cm,right=2.1cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[paper=a4paper,left=2.1cm,right=2.1cm,top=2.5cm,bottom=2.5cm]{geometry}
 \usepackage{multicol}
 \usepackage{graphicx,wrapfig,lipsum} 
 %\def\BIB{}
@@ -29,12 +29,14 @@
     urlcolor=blue     % can put red here to visualize the links
 }
 
+%\renewcommand{\refname}{}
+
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Research proposal}
+\rhead{Research summary}
 \lhead{El Mellah Ileyk}
 \rfoot{\thepage / \pageref{LastPage}}
 
@@ -68,7 +70,7 @@
 
 \newcommand{\ignore}[1]{}
 
-\renewcommand*\rmdefault{iwona}
+%\renewcommand*\rmdefault{iwona}
 
 %\pagenumbering{gobble}
 
@@ -139,18 +141,24 @@
 %%% PAR LES INFORMATIONS DEMANDEES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\maketitle
-\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\rhead{}
+\lhead{El Mellah Ileyk}
+\rfoot{\thepage / \pageref{LastPage}}
 
+\vspace*{-1.6cm}
 \begin{center}
 \Large Speeding up the spinning top\\
 \large How accretion sets the pace in High Mass X-ray Binaries 
 \end{center}
 \normalfont
 
+\vspace*{0.7cm}
+
 Massive stars live a forceful life during which they shape galaxies with their mechanical, radiative and chemical feedback. Most of them evolve in a binary system where the two stars orbit close enough from each other to exchange mass, angular momentum and sometimes merge during their evolution \citep{DeMink2012}. Those who remain bounded after the supernova explosion of one the two objects can become a High Mass X-ray Binaries (\hmxb), systems where stellar material is transferred to the compact remnant, either a neutrons star (\ns) or a black hole (\bh). This temporary albeit decisive period in the binary evolution determines its final fate, once a compact binary is formed.
 
-The recent detection of gravitational waves granted us access to the very last moment of this epic journey : the coalescence between two compact objects. It revealed the final masses and effective spins the \bh and \ns involved acquired during their turbulent lifetime \citep{TheLIGOScientificCollaboration2017}. These systems are thought to be the fruit of a massive binary evolution which can lead, under stringent conditions, to compact binaries with orbital separations close enough to spiral-in and merge within a Hubble time.
+The recent detection of gravitational waves granted us access to the very last moment of this epic journey : the coalescence between two compact objects. It revealed the final masses and effective spins the \bh and \ns involved acquired during their turbulent lifetime \citep{TheLIGOScientificCollaboration2017}. These systems are thought to be the fruit of a massive binary evolution which can lead, under stringent conditions, to compact binaries with orbital separations close enough to spiral-in and merge within a Hubble time. 
 
 %\begin{wrapfigure}{o}{0.6\textwidth}
 %  \centering
@@ -168,14 +176,16 @@ The recent detection of gravitational waves granted us access to the very last m
 %\label{fig:disc}
 %\end{wrapfigure}
 
-\begin{figure}[!b]
+Evolutionary models are being developed to predict the upcoming distributions of parameters such as effective spins in \bh-\bh mergers \citep{Belczynski2017} but thorough and repeated observations of individual \hmxb remind us the complexity of phenomena which puts at risk the secular tracks we compute. In particular, the question of the capture of angular momentum by wind-fed compact objects is not settled and need to be addressed to predict the frequency of compact objects mergers and trace back their tumultuous history, two topics of direct interest to elucidate NASA's Cosmic Origins question "How did we get here?" but also "How does the universe work?". 
+
+A good illustration of our incomplete understanding of angular momentum loss and exchange is given by the distribution and secular evolution of the \ns spin in Supergiant X-ray binaries (\sgx, a sub-class of \hmxb, see Figure\,\ref{fig:spin}). While some sub-classes of \hmxb show common angular momentum trends, wind-fed \ns in \sgx display distinct phases of spinning up or down and torque reversals which defy theoretical expectations \citep{Hemphill2013}. Instantaneous torques are the result of intertwined effects : depending on whether the accreted material forms a thin disc (prograde or retrograde) before reaching the \ns magnetosphere or remains essentially spherical, the torque applied to the \ns is significantly different \citep{Ghosh1978,Shakura2012}. However, the spin of the \ns itself can perturb the accretion through magneto-centrifugal effects \citep{Bozzo2008} while the properties of the stellar wind captured determines the geometry of the flow once it reaches the outer rim of the magnetosphere \citep{ElMellah2018}. For accreting \bh, the contribution of ejection via jets or disc winds does not simplify the picture. The aim of this project is to gather these torque mechanisms into a consistent frame to address the following core questions :
+
+\begin{figure}[!t]
 \centering
-\includegraphics[width=0.6\columnwidth]{Figures/corbet_diag.png}
-\caption{Corbet diagram of \ns-hosting Galactic \hmxb with known orbital period. While a correlation exists between the spin and the orbital period in X-ray binaries where the donor star is a massive Be star (a fast rotator surrounded by a decretion disc), it is not the case in \sgx or in Supergiant fast X-ray transients. The orbital periods of the two \bh in \hmxb with measured spins have also been represented (vertical dashed lines).}
+\includegraphics[width=0.7\columnwidth]{Figures/corbet_diag.png}
+\caption{\ns-hosting Galactic \hmxb with known orbital and \ns spin periods. While a correlation exists between the spin and the orbital period in X-ray binaries where the donor star is a massive Be star (a fast rotator surrounded by a decretion disc), it is not the case in \sgx or in Supergiant fast X-ray transients. The orbital periods of the two \bh in \hmxb with measured spins have also been represented (vertical dashed lines).}
 \label{fig:spin}
 \end{figure} 
-
-Evolutionary models are being developed to predict the upcoming distributions of parameters such as effective spins in \bh-\bh mergers \citep{Belczynski2017} but thorough and repeated observations of individual \hmxb remind us the complexity of phenomena which puts at risk the secular tracks we compute. In particular, the question of the capture of angular momentum by wind-fed compact objects is not settled and need to be addressed to predict the frequency of compact objects mergers and trace back their tumultuous history. For instance, the distribution and secular evolution of the \ns spin in Supergiant X-ray binaries (\sgx, a subclass of \hmxb, see Figure\,\ref{fig:spin}) is the result of intertwined effects : depending on whether the accreted material forms a disc-like structure (prograde or retrograde) before reaching the \ns magnetosphere or remains essentially spherical, the torque applied to the \ns will be significantly different \citep{Ghosh1978,Shakura2012}. However, the spin of the \ns itself can perturb the accretion through magneto-centrifugal effects \citep{Bozzo2008} while the properties of the stellar wind captured determines the geometry of the flow once it reaches the outer rim of the magnetosphere \citep{ElMellah2018}. For accreting \bh, the contribution of ejection via jets or disc winds does not simplify the picture. While some classes of \hmxb show some common angular momentum trends like Be X-ray binaries, others remain out of the scope of our current understanding. The aim of this project is to gather these mechanisms into a consistent frame to address the following core questions :
 
 %The omnipresence of this type of feedback loops in \hmxb between similarly important effects demands to design models where scales are connected and tackle simultaneously the core questions of this project :
 
@@ -198,7 +208,7 @@ Evolutionary models are being developed to predict the upcoming distributions of
 \begin{enumerate}
 \item How does the partial capture of stellar material by the compact object alter the orbital separation and how does it retroactively impact the stellar mass loss?
 \item Around a \ns, how does the flow couple to the magnetosphere and what are the short and long term consequences for the spin of the \ns? 
-\item For a \bh, how does the spin evolve under the influence of the accretion/ejection trade-off / interplay XXX?
+\item For a \bh, how does the spin evolve under the influence of accretion and ejection?
 \end{enumerate}
 
 Until now, the several orders of magnitude which separate the orbital scale from the X-ray emitting region, in the immediate vicinity of the compact object, have precluded any bold numerical attempt to follow the accreted flow all along its journey. We were condemned to treat separately the aforementioned problems, presupposing an idealized behavior of the scales out of the scope of the simulation. Within an active collaboration which gathered 20 to 30 observers and theoreticians of winds of massive stars and X-ray binaries over the last years, I have developed and validated a numerical framework which connects these scales and offer the first comprehensive view of mass transfer onto wind-fed compact accretors in binaries. I am now in a position to step forwards and investigate the torques associated, using cutting edge massively parallel codes to solve the radiative magneto-hydrodynamics (RMHD) equations in neatly designed numerical setups. Based on the ample experience I have acquired with these tools, I can reasonably aspire to bring new insights on these questions and contribute to put the newly born field of gravitational wave astronomy into perspective.
@@ -216,13 +226,21 @@ Until now, the several orders of magnitude which separate the orbital scale from
 \label{fig:disc}
 \end{figure} 
 
+\renewcommand{\headrulewidth}{1pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Research summary}
+\lhead{El Mellah Ileyk}
+\rfoot{\thepage / \pageref{LastPage}}
+
 \subsection*{Methodology}
 
-I propose to investigate transfer and loss of angular momentum in \hmxb using RMHD numerical simulations of situations tightly linked to observational signatures. For instance, orbital-phase resolved spectroscopy performed with the NASA Chandra satellite and the ESA XMM-Newton satellite identified the main structures I need to treat in my models of \hmxb (\eg zones of enhanced ionization \citep{Grinberg2017}, accretion tail \citep{Martinez-Nunez2014}...). My numerical investigations aim at capturing the dynamics underlying this complex geometry : they disentangle between stochastic features such as transient discs due to the micro-structure of the wind (see Figure\,\ref{fig:disc} from \cite{ElMellah}), and recurring events associated to stable structures present from orbit to orbit such as the accretion tail in the wake of the accretor \citep{ElMellah2015}.
+I propose to investigate transfer and loss of angular momentum in \hmxb using RMHD numerical simulations of situations tightly linked to observational signatures. For instance, orbital-phase resolved spectroscopy performed with the NASA Chandra satellite and the ESA XMM-Newton satellite identified the main structures which need to be treated in models of \hmxb (\eg zones of enhanced ionization \citep{Grinberg2017}, accretion tail \citep{Martinez-Nunez2014}...). My numerical investigations aim at capturing the dynamics underlying this complex geometry : they disentangle between stochastic features such as transient discs due to the micro-structure of the wind (see Figure\,\ref{fig:disc} from \cite{ElMellah}), and recurring events associated to stable structures present from orbit to orbit such as the accretion tail in the wake of the accretor \citep{ElMellah2015}.
 
 \begin{itemize}
-\item \textbf{\underline{Step 1 : Radiative feedback}} The geometry of the problem (\eg formation of an accretion disc) strongly depends on the capacity of the flow to radiate away its internal energy and compress. Although the mass accretion rate might vary little with the geometry of the flow, the long term impact on the torque applied to the compact object can be dramatic. I implemented a first cooling prescription and used cooling modules suitable for radiatively thin environments, but I now intend to rely on the more realistic treatment of radiative effects available in the \texttt{FLASH} or the \texttt{Athena} codes used by several teams in the US \citep{Jiang2014a}. It will also enable me to extract photometric and spectroscopic synthetic observations from the simulations to be confronted to the observations. For instance, a first publication would assess the possibility for transient truncated discs around \ns to contribute to the soft-excess observed in \ns-\sgx \citep{Bozzo2012}.
-\item \textbf{\underline{Step 2 : Coupling with the \ns magnetosphere}} Once the impact of radiative feedback on the geometry is known, we can make use of the multi-scale setup I developed and evaluate, in realistic conditions, the net spinning up or down of a wind-fed \ns. We have semi-analytical expectations for the limit cases, spherical or thin disc geometry, but we can now treat the full 3D time-dependent problem to draw conclusions about the systematic effects which need to be accounted for in computation of population synthesis. A second publication could confront the first synthetic curves of the evolution of the \ns spin as a function of time to the observed ones (\eg in the \ns-hosting Ultra-luminous X-ray source P13, \citep{Fuerst2018}). In specific \sgx like Vela X-1, key simulation parameters such as the extent of the magnetosphere are provided by observations of cyclotron resonance scattering features with the NASA NuSTAR satellite \citep{Furst2014}.
+\item \textbf{\underline{Step 1 : Radiative feedback}} The geometry of the problem (\eg formation of an accretion disc) strongly depends on the capacity of the flow to radiate away its internal energy and compress. Although the mass accretion rate might vary little with the geometry of the flow, the long term impact on the torque applied to the compact object can be dramatic. I implemented a first cooling prescription and used cooling modules suitable for radiatively thin environments, but I now intend to rely on the more realistic treatment of radiative effects available in the \texttt{FLASH} or the \texttt{Athena} codes used by several teams in the US \citep{Jiang2014a}. It will also enable me to extract photometric and spectroscopic synthetic observations from the simulations to be confronted to the observations. 
+%For instance, a first publication would assess the possibility for transient truncated discs around \ns to contribute to the soft-excess observed in \ns-\sgx \citep{Bozzo2012}.
+\item \textbf{\underline{Step 2 : Coupling with the \ns magnetosphere}} Once the impact of radiative feedback on the geometry is known, we can make use of the multi-scale setup I developed and evaluate, in realistic conditions, the net spinning up or down of a wind-fed \ns. We have semi-analytical expectations for the limit cases, spherical or thin disc geometry, but we can now treat the full 3D time-dependent problem to draw conclusions about the systematic effects which need to be accounted for in computation of population synthesis. In a publication, I could confront the first synthetic curves of the evolution of the \ns spin as a function of time to the observed ones (\eg in the \ns-hosting Ultra-luminous X-ray source P13 which remain to be explained, \citep{Fuerst2018}). In specific \sgx like Vela X-1, key simulation parameters such as the extent of the magnetosphere are provided by observations of cyclotron resonance scattering features with the NASA NuSTAR satellite \citep{Furst2014}.
 \item \textbf{\underline{Step 3 : The role of outflows}} Stellar winds are an important source of angular momentum loss in \sgx, along with disc winds and jets in some systems like Cygnus X-1 : accretion-ejection in the disc via magneto-centrifugal effects are possible (\eg a Blandford-Payne disc wind) while Blandford-Znajek jets damp the \bh spin in a different way for a prograde or a retrograde disc \citep{Tchekhovskoy2012}. Also, the ejection of stellar material during the common envelope phase can significantly alter the long term evolution of the spins and orbital separation \cite{Murguia-Berthier2017}. If I am granted a Hubble fellowship, the team I would eventually join will influence which aspect I focus more on in this third step. Depending on the skills and centers of interest of the host institution I would be endorsed by, I would set the focus either on the role of outflows in spinning down a wind-fed \bh or on the efficiency of stellar material ejection in the common envelope phase.
 \end{itemize}
 
@@ -234,11 +252,11 @@ I propose to investigate transfer and loss of angular momentum in \hmxb using RM
 
 \subsection*{Computational tools}
 
+I have gained extensive expertise over the last 5 years with the finite volume code \texttt{MPI-AMRVAC} and I participated in the development of the second version released in 2018 \citep{Xia2017}. It is a set of Fortran modules written in a dimensional independent syntax and which works in several different geometries. \texttt{MPI-AMRVAC} solves systems of partial differential equations such as the laws of MHD, with an emphasis on shock-dominated problems. Its highly parallelized architecture, based on OpenMPI, makes the most of the high performance computing facilities and shows excellent scaling curves up to thousands of processors. 
 
-SPINNING UP OF NS ULX REPORTED \citep{Christodoulou2017,Fuerst2018}.
+The versatility of this code makes it a privileged tool to handle separately the different scales of the problem. At the orbital scale, I have coded my own ballistic integrator to explore the different types of supersonic line-driven winds in a \sgx. It provides me the outer boundary conditions to inject matter within the Roche lobe of the accretor and solve the equations of hydrodynamics. When the flow reaches the \ns magnetosphere, I will activate the MHD solver and make use of the divergence cleaning tools already available in \texttt{MPI-AMRVAC} to guarantee the accuracy of the numerical solution. For radiation-dominated environments, I intend to couple this code to available solvers based either on flux-limited diffusion or M1 radiative closure. It would prove a fruitful implementation for projects beyond the current one (\eg the question of torques in super-Eddington accretion situations).
 
-TO SPIN BH, MASSIVE AMOUNT OF MASS REQUIRED
-
+\phantom{\citep{ElMellah2016a,ElMellah2018a,Rappaport:2012wi,Rappaport2013,SanchisOjeda:2014ww}}
 
 %\section*{Conclusion}
 %
@@ -246,11 +264,14 @@ TO SPIN BH, MASSIVE AMOUNT OF MASS REQUIRED
 %
 %Longer term prospective
 
-\newpage
+%\newpage
 
 %\newgeometry{left=2cm,right=2cm,top=2.5cm,bottom=2.5cm}
-\setlength{\bibsep}{5pt}
-\scriptsize
+
+%\subsubsection*{References}
+%\vspace*{-1.3cm}
+\setlength{\bibsep}{1pt}
+%\scriptsize
 \bibliographystyle{ieeetr}
 \bibliography{/Users/Ileyk/Documents/Bibtex/Hubble_fellowship_no_url}
 
