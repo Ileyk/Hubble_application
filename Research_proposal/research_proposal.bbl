@@ -1,94 +1,97 @@
 \begin{thebibliography}{10}
 
 \bibitem{DeMink2012}
-S.~E. {De Mink}, N.~Langer, R.~G. Izzard, H.~Sana, and A.~{De Koter} {\em
-  Astrophys. J.}, vol.~764, nov 2013.
+S.~E. {De Mink}, N.~Langer, R.~G. Izzard, H.~Sana, and A.~{De Koter} {\em ApJ},
+  2013.
 
 \bibitem{TheLIGOScientificCollaboration2017}
-{The LIGO Scientific Collaboration} and {The Virgo Collaboration} {\em Phys.
-  Rev. Lett. Vol. 119, Issue 16, id.161101}, vol.~119, oct 2017.
-
-\bibitem{Belczynski2017}
-K.~Belczynski, J.~Klencki, G.~Meynet, and C.~L. e.~a. Fryer {\em Astron.
-  Astrophys.}, jun 2017.
-
-\bibitem{Hemphill2013}
-P.~B. Hemphill, R.~E. Rothschild, I.~Caballero, and K.~e.~a. Pottschmidt {\em
-  Astrophys. J.}, vol.~777, no.~1997, 2013.
-
-\bibitem{Ghosh1978}
-P.~Ghosh and F.~K. Lamb {\em Astrophys. J.}, vol.~223, p.~L83, jul 1978.
-
-\bibitem{Shakura2012}
-N.~Shakura, K.~Postnov, A.~Kochetkova, and L.~Hjalmarsdotter {\em Mon. Not. R.
-  Astron. Soc.}, vol.~420, pp.~216--236, oct 2012.
+{The LIGO Scientific Collaboration} and {The Virgo Collaboration} {\em PRL
+  119-16}, 2017.
 
 \bibitem{Bozzo2008}
-E.~Bozzo, M.~Falanga, and L.~Stella {\em Astrophys. J.}, vol.~683,
-  pp.~1031--1044, aug 2008.
+E.~Bozzo, M.~Falanga, and L.~Stella {\em ApJ}, 2008.
+
+\bibitem{Tauris2017}
+T.~M. Tauris, M.~Kramer, P.~C.~C. Freire, and N.~e.~a. Wex {\em ApJ 846, Issue
+  2}, 2017.
 
 \bibitem{ElMellah2018}
 I.~{El Mellah}, A.~A.~C. Sander, J.~O. Sundqvist, and R.~Keppens {\em
   (submitted)}, 2018.
 
+\bibitem{Ghosh1978}
+P.~Ghosh and F.~K. Lamb {\em ApJ}, 1978.
+
+\bibitem{Shakura2012}
+N.~Shakura, K.~Postnov, A.~Kochetkova, and L.~Hjalmarsdotter {\em MNRAS}, 2012.
+
+\bibitem{Hemphill2013}
+P.~B. Hemphill, R.~E. Rothschild, I.~Caballero, and K.~e.~a. Pottschmidt {\em
+  ApJ}, 2013.
+
+\bibitem{ElMellah}
+I.~{El Mellah}, J.~O. Sundqvist, and R.~Keppens {\em MNRAS}, 2017.
+
+\bibitem{ElMellah2015}
+I.~{El Mellah} and F.~Casse {\em MNRAS}, 2015.
+
 \bibitem{Grinberg2017}
-V.~Grinberg, N.~Hell, I.~{El Mellah}, and J.~e.~a. Neilsen {\em Astron.
-  Astrophys. Vol. 608, id.A143, 18 pp.}, vol.~608, p.~A143, nov 2017.
+V.~Grinberg, N.~Hell, I.~{El Mellah}, and J.~e.~a. Neilsen {\em A\&A Vol. 608,
+  id.A143, 18 pp.}, 2017.
 
 \bibitem{Martinez-Nunez2014}
 S.~Mart{\'{i}}nez-N{\'{u}}{\~{n}}ez, J.~M. Torrej{\'{o}}n, M.~K{\"{u}}hnel, and
-  P.~e.~a. Kretschmar {\em Astron. Astrophys.}, vol.~563, p.~A70, jan 2014.
-
-\bibitem{ElMellah}
-I.~{El Mellah}, J.~O. Sundqvist, and R.~Keppens {\em Mon. Not. R. Astron.
-  Soc.}, vol.~475, pp.~3240--3252, nov 2017.
-
-\bibitem{ElMellah2015}
-I.~{El Mellah} and F.~Casse {\em Mon. Not. R. Astron. Soc.}, vol.~454,
-  pp.~2657--2667, oct 2015.
-
-\bibitem{Jiang2014a}
-Y.-F. Jiang, J.~M. Stone, and S.~W. Davis oct 2014.
-
-\bibitem{Fuerst2018}
-F.~F{\"{u}}rst, D.~J. Walton, M.~Heida, and F.~A. e.~a. Harrison {\em Astron.
-  Astrophys. Vol. 616, id.A186, 10 pp.}, vol.~616, pp.~1--10, may 2018.
+  P.~e.~a. Kretschmar {\em A\&A}, 2014.
 
 \bibitem{Furst2014}
-F.~F{\"{u}}rst, K.~Pottschmidt, J.~Wilms, and J.~A. e.~a. Tomsick {\em
-  Astrophys. J.}, vol.~780, nov 2014.
+F.~F{\"{u}}rst, K.~Pottschmidt, J.~Wilms, and J.~A. e.~a. Tomsick {\em ApJ},
+  2014.
 
-\bibitem{Tchekhovskoy2012}
-A.~Tchekhovskoy and J.~C. McKinney {\em Mon. Not. R. Astron. Soc. Lett.},
-  vol.~423, no.~1, pp.~55--59, 2012.
+\bibitem{McKinney2014}
+J.~C. McKinney, A.~Tchekhovskoy, A.~Sadowski, and R.~Narayan {\em MNRAS}, 2014.
+
+\bibitem{Kruckow2016}
+M.~U. Kruckow, T.~M. Tauris, N.~Langer, and D.~e.~a. Szecsi {\em A\&A Vol. 596,
+  id.A58, 13 pp.}, 2016.
 
 \bibitem{Murguia-Berthier2017}
-A.~Murguia-Berthier, M.~MacLeod, E.~Ramirez-Ruiz, A.~Antoni, and P.~Macias {\em
-  Astrophys. J.}, vol.~845, p.~173, may 2017.
+A.~Murguia-Berthier, M.~MacLeod, E.~Ramirez-Ruiz, and A.~e.~a. Antoni {\em
+  ApJ}, 2017.
 
-\bibitem{Xia2017}
-C.~Xia, J.~Teunissen, I.~{El Mellah}, E.~Chan{\'{e}}, and R.~Keppens {\em
-  Astrophys. J. Suppl. Ser.}, vol.~234, p.~30, oct 2018.
+\bibitem{Fuerst2018}
+F.~F{\"{u}}rst, D.~J. Walton, M.~Heida, and F.~A. e.~a. Harrison {\em A\&A Vol.
+  616, id.A186, 10 pp.}, 2018.
+
+\bibitem{Liska2017}
+M.~Liska, C.~Hesp, A.~Tchekhovskoy, A.~Ingram, M.~van~der Klis, and S.~Markoff
+  {\em eprint arXiv:1707.06619}, 2017.
+
+\bibitem{Taam2018}
+R.~E. Taam, E.~Qiao, B.~F. Liu, and E.~Meyer-Hofmeister {\em Astrophys.
+  Journal, Vol. 860, Issue 2, Artic. id. 166, 5 pp. (2018).}, 2018.
 
 \bibitem{ElMellah2016a}
-I.~{El Mellah} and F.~Casse {\em Mon. Not. R. Astron. Soc.}, vol.~467,
-  pp.~2585--2593, sep 2016.
+I.~{El Mellah} and F.~Casse {\em MNRAS}, 2016.
 
 \bibitem{ElMellah2018a}
 I.~{El Mellah}, J.~O. Sundqvist, and R.~Keppens {\em (submitted)}, 2018.
 
+\bibitem{Xia2017}
+C.~Xia, J.~Teunissen, I.~{El Mellah}, E.~Chan{\'{e}}, and R.~Keppens {\em ApJ
+  Suppl. S.}, 2018.
+
 \bibitem{Rappaport:2012wi}
 S.~Rappaport, a.~Levine, E.~Chiang, I.~{El Mellah}, J.~Jenkins, B.~Kalomeni,
-  E.~S. Kite, M.~Kotson, L.~Nelson, L.~Rousseau-Nepton, and K.~Tran {\em
-  Astrophys. J.}, vol.~752, p.~1, jan 2012.
+  E.~S. Kite, M.~Kotson, L.~Nelson, L.~Rousseau-Nepton, and K.~Tran {\em ApJ},
+  2012.
 
 \bibitem{Rappaport2013}
-S.~Rappaport, K.~Deck, a.~Levine, T.~Borkovits, J.~Carter, I.~E. Mellah,
+S.~Rappaport, K.~Deck, A.~Levine, T.~Borkovits, J.~Carter, I.~{El Mellah},
   R.~Sanchis-Ojeda, B.~Kalomeni, I.~{El Mellah}, R.~Sanchis-Ojeda, and
-  B.~Kalomeni {\em Astrophys. J.}, vol.~768, p.~33, feb 2013.
+  B.~Kalomeni {\em ApJ}, 2013.
 
 \bibitem{SanchisOjeda:2014ww}
-R.~Sanchis-Ojeda, S.~Rappaport, J.~N. Winn, M.~C. Kotson, A.~Levine, and I.~E.
-  Mellah {\em Astrophys. J.}, vol.~787, p.~47, mar 2014.
+R.~Sanchis-Ojeda, S.~Rappaport, J.~N. Winn, M.~C. Kotson, A.~Levine, and I.~{El
+  Mellah} {\em ApJ}, 2014.
 
 \end{thebibliography}

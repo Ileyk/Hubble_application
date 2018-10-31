@@ -102,11 +102,11 @@ for i in range(0,np.size(Po)):
 # ax.plot((8.96),(238),'o',color='y',markerfacecolor='none',markeredgecolor=colors[0],ms=20,markeredgewidth=4)
 # ax.plot((6.07),(361),'o',color='y',markerfacecolor='none',markeredgecolor=colors[0],ms=20,markeredgewidth=4)
 # ax.plot((4.47),(140),'o',color='y',markerfacecolor='none',markeredgecolor=colors[0],ms=20,markeredgewidth=4)
-plt.axvline(x=5.6, ymin=0.0001, ymax = 61500, linewidth=2, linestyle='--', color='k', alpha=0.4)
-plt.axvline(x=3.9, ymin=0.0001, ymax = 61500, linewidth=2, linestyle='--', color='k', alpha=0.4)
+# plt.axvline(x=5.6, ymin=0.0001, ymax = 61500, linewidth=2, linestyle='--', color='k', alpha=0.4)
+# plt.axvline(x=3.9, ymin=0.0001, ymax = 61500, linewidth=2, linestyle='--', color='k', alpha=0.4)
 # plt.text(0.5, 0.5, 'matplotlib', rotation=90, horizontalalignment='center',verticalalignment='center', transform=ax.transAxes, fontsize=4)
-plt.text(5.1, 9500, 'Cyg X-1', rotation=90, horizontalalignment='center',verticalalignment='center',fontsize=13)
-plt.text(3.6, 9500, 'LMC X-1', rotation=90, horizontalalignment='center',verticalalignment='center',fontsize=13)
+# plt.text(5.1, 9500, 'Cyg X-1', rotation=90, horizontalalignment='center',verticalalignment='center',fontsize=13)
+# plt.text(3.6, 9500, 'LMC X-1', rotation=90, horizontalalignment='center',verticalalignment='center',fontsize=13)
 
 # for i in range(0,np.size(noPer)):
 # 	plt.plot((xmin, xmax), (noPer[i], noPer[i]),color='r',linestyle='--', linewidth=1.5, alpha=1)

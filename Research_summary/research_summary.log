@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 OCT 2018 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 OCT 2018 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,6 +736,16 @@ LaTeX Info: Redefining \nameref on input line 101.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 101.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 161.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 161.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 161.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 161.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 161.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -746,46 +756,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<Figures/config_SgXB_clumps.png, id=18, 205.9695pt x 202.356pt>
+<Figures/config_SgXB_clumps.png, id=23, 205.9695pt x 202.356pt>
 File: Figures/config_SgXB_clumps.png Graphic file (type png)
 
 <use Figures/config_SgXB_clumps.png>
-Package pdftex.def Info: Figures/config_SgXB_clumps.png used on input line 166.
+Package pdftex.def Info: Figures/config_SgXB_clumps.png used on input line 173.
 
-(pdftex.def)             Requested size: 217.21718pt x 213.39566pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 167.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 167.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 167.
+(pdftex.def)             Requested size: 208.52724pt x 204.85974pt.
 
-<Figures/mesh.jpeg, id=20, 660.4675pt x 550.055pt>
+<Figures/mesh.jpeg, id=25, 660.4675pt x 550.055pt>
 File: Figures/mesh.jpeg Graphic file (type jpg)
  <use Figures/mesh.jpeg>
-Package pdftex.def Info: Figures/mesh.jpeg used on input line 171.
-(pdftex.def)             Requested size: 256.23085pt x 213.39566pt.
+Package pdftex.def Info: Figures/mesh.jpeg used on input line 178.
+(pdftex.def)             Requested size: 245.98161pt x 204.85974pt.
 
-Overfull \hbox (41.87642pt too wide) in paragraph at lines 170--172
+Overfull \hbox (45.85356pt too wide) in paragraph at lines 177--179
 []|  [] 
  []
 
 [2 <./Figures/config_SgXB_clumps.png> <./Figures/mesh.jpeg>]
-<Figures/disc.png, id=35, 1027.84pt x 947.54pt>
+<Figures/disc.png, id=40, 1027.84pt x 947.54pt>
 File: Figures/disc.png Graphic file (type png)
  <use Figures/disc.png>
-Package pdftex.def Info: Figures/disc.png used on input line 221.
+Package pdftex.def Info: Figures/disc.png used on input line 228.
 (pdftex.def)             Requested size: 199.16928pt x 183.60565pt.
 File: Figures/disc.png Graphic file (type png)
 
 <use Figures/disc.png>
-Package pdftex.def Info: Figures/disc.png used on input line 221.
+Package pdftex.def Info: Figures/disc.png used on input line 228.
 (pdftex.def)             Requested size: 199.16928pt x 183.60565pt.
 File: Figures/disc.png Graphic file (type png)
  <use Figures/disc.png>
-Package pdftex.def Info: Figures/disc.png used on input line 221.
+Package pdftex.def Info: Figures/disc.png used on input line 228.
 (pdftex.def)             Requested size: 199.16928pt x 183.60565pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 238.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 245.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -794,33 +798,36 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 AED: lastpage setting LastPage
 [3 <./Figures/disc.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (./research_summary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
 Package rerunfilecheck Info: File `research_summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
  ) 
 Here is how much of TeX's memory you used:
- 8489 strings out of 493014
- 125450 string characters out of 6133351
- 325553 words of memory out of 5000000
- 11925 multiletter control sequences out of 15000+600000
- 10448 words of font info for 29 fonts, out of 8000000 for 9000
+ 8502 strings out of 493014
+ 125605 string characters out of 6133351
+ 325564 words of memory out of 5000000
+ 11933 multiletter control sequences out of 15000+600000
+ 13520 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,51p,1418b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on research_summary.pdf (3 pages, 1780211 bytes).
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on research_summary.pdf (3 pages, 1799744 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
